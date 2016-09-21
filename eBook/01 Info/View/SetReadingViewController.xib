@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SetReadingViewController">
+            <connections>
+                <outlet property="colorSegmented" destination="H7b-Ih-W9Y" id="xWJ-C1-psi"/>
+                <outlet property="colorShowLabel" destination="uR4-EE-0Jz" id="cmr-Ue-696"/>
+                <outlet property="pageFlipSwitch" destination="L1M-aB-czy" id="I5i-5M-VfC"/>
+                <outlet property="shadeAlphaShowLabel" destination="Jx9-B9-gYK" id="TMt-60-9Ma"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="604"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwC-kI-Zxw">
+                    <rect key="frame" x="0.0" y="18" width="375" height="50"/>
+                    <state key="normal" title="Button" image="huyanmoshi.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2BZ-dB-dSk">
+                    <rect key="frame" x="0.0" y="125" width="375" height="50"/>
+                    <state key="normal" title="Button" image="bipingshijian.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOT-dr-uPx">
+                    <rect key="frame" x="0.0" y="75" width="375" height="50"/>
+                    <state key="normal" title="Button" image="xiuxitixing.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z1H-Uq-t7g">
+                    <rect key="frame" x="0.0" y="181" width="375" height="50"/>
+                    <state key="normal" title="Button" image="zidonggoumai.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSa-iV-cFx">
+                    <rect key="frame" x="0.0" y="231" width="375" height="50"/>
+                    <state key="normal" title="Button" image="kaiqifangzhen.png"/>
+                </button>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L1M-aB-czy">
+                    <rect key="frame" x="309" y="241" width="51" height="31"/>
+                </switch>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="vOH-X7-vCt">
+                    <rect key="frame" x="0.0" y="287" width="375" height="50"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ex-xo-l8P">
+                    <rect key="frame" x="121" y="302" width="20" height="20"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="灰">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="grayButton:" destination="-1" eventType="touchUpInside" id="gku-yF-VA1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTJ-Lb-Mxs">
+                    <rect key="frame" x="149" y="302" width="20" height="20"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.85914902942720228" blue="0.80906460129375235" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="肉"/>
+                    <connections>
+                        <action selector="meatButton:" destination="-1" eventType="touchUpInside" id="cC6-pr-KxG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHg-1i-iwA">
+                    <rect key="frame" x="177" y="302" width="20" height="20"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.85259952528222727" blue="0.6787620662648437" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="嫩">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="tenderButton:" destination="-1" eventType="touchUpInside" id="JJa-hW-bGP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHh-aP-vxq">
+                    <rect key="frame" x="205" y="302" width="20" height="20"/>
+                    <color key="backgroundColor" red="0.72522546140939592" green="0.85259952528222727" blue="0.6787620662648437" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="青">
+                        <color key="titleColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="navyButton:" destination="-1" eventType="touchUpInside" id="ER6-uG-OcL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKg-S6-TmT">
+                    <rect key="frame" x="233" y="302" width="20" height="20"/>
+                    <color key="backgroundColor" red="0.54380767617449643" green="0.80910644642316687" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="蓝">
+                        <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="blueButton:" destination="-1" eventType="touchUpInside" id="O8P-Rz-hvN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBP-iQ-nM0">
+                    <rect key="frame" x="261" y="302" width="20" height="20"/>
+                    <color key="backgroundColor" red="0.54380767617449521" green="0.52384533065135475" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="紫">
+                        <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="purpleButton:" destination="-1" eventType="touchUpInside" id="LJQ-yA-rs9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dT4-Kk-chA">
+                    <rect key="frame" x="289" y="302" width="20" height="20"/>
+                    <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="黑">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="blackButton:" destination="-1" eventType="touchUpInside" id="swS-9l-vgM"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="无" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uR4-EE-0Jz">
+                    <rect key="frame" x="317" y="292" width="41" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="tyk-xP-Cby">
+                    <rect key="frame" x="0.0" y="338" width="375" height="50"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jx9-B9-gYK">
+                    <rect key="frame" x="317" y="340" width="43" height="43"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="背景颜色" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gp-Jt-zQh">
+                    <rect key="frame" x="17" y="302" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="暗等级" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gM-IV-3ev">
+                    <rect key="frame" x="17" y="351" width="45" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="zQ4-Fd-G5H">
+                    <rect key="frame" x="168" y="347" width="94" height="29"/>
+                    <connections>
+                        <action selector="step:" destination="-1" eventType="valueChanged" id="B93-eI-Od0"/>
+                    </connections>
+                </stepper>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="aSH-Xh-8H0">
+                    <rect key="frame" x="0.0" y="389" width="375" height="50"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="字体大小" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ti9-jb-55X">
+                    <rect key="frame" x="17" y="403" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="exe-Md-J55">
+                    <rect key="frame" x="0.0" y="440" width="375" height="50"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="字体颜色" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjV-xH-tvJ">
+                    <rect key="frame" x="17" y="455" width="73" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="H7b-Ih-W9Y">
+                    <rect key="frame" x="168" y="450" width="94" height="29"/>
+                    <segments>
+                        <segment title="黑色"/>
+                        <segment title="白色"/>
+                    </segments>
+                </segmentedControl>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zwf-Mc-KR6">
+                    <rect key="frame" x="0.0" y="491" width="375" height="50"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="字体样式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48T-JT-xcB">
+                    <rect key="frame" x="17" y="505" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="712.5" y="260"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bipingshijian.png" width="750" height="91"/>
+        <image name="cell.png" width="750" height="90"/>
+        <image name="huyanmoshi.png" width="750" height="87"/>
+        <image name="kaiqifangzhen.png" width="750" height="90"/>
+        <image name="xiuxitixing.png" width="750" height="90"/>
+        <image name="zidonggoumai.png" width="750" height="89"/>
+    </resources>
+</document>

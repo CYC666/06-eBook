@@ -1,0 +1,35 @@
+//
+//  Common.pch
+//  eBook
+//
+//  Created by CYC on 16/4/26.
+//  Copyright © 2016年 CaoYicheng. All rights reserved.
+//
+
+#ifndef Common_pch
+#define Common_pch
+
+
+#import "UIViewExt.h"
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width        //屏幕宽度
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height      //屏幕高度
+
+#define NavigationBarHeight 64      //导航栏+状态栏高度
+#define TabBarHeight 49             //标签栏高度
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif /* Common_pch */

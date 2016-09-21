@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>冰炎圣手</string>
+		<key>image</key>
+		<string>冰炎圣手.png</string>
+		<key>book</key>
+		<string>冰炎圣手.txt</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>三国演义</string>
+		<key>image</key>
+		<string>三国演义.png</string>
+		<key>book</key>
+		<string>三国演义.txt</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>水浒传</string>
+		<key>image</key>
+		<string>水浒传.png</string>
+		<key>book</key>
+		<string>水浒传.txt</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>鲁滨孙漂流记</string>
+		<key>image</key>
+		<string>鲁滨孙漂流记.png</string>
+		<key>book</key>
+		<string>鲁滨孙漂流记.txt</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>西游记</string>
+		<key>image</key>
+		<string>西游记.png</string>
+		<key>book</key>
+		<string>西游记.txt</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>红楼梦</string>
+		<key>image</key>
+		<string>红楼梦.png</string>
+		<key>book</key>
+		<string>红楼梦.txt</string>
+	</dict>
+</array>
+</plist>

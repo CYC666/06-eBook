@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MineViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="604"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cu-zf-zlT" userLabel="touxiang">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="97"/>
+                    <state key="normal" title="Button" image="touxiang.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMs-Q9-OM6" userLabel="wodezhuye">
+                    <rect key="frame" x="0.0" y="105" width="375" height="65"/>
+                    <state key="normal" title="Button" image="wodezhuye.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUc-3z-fht" userLabel="wodezichan">
+                    <rect key="frame" x="0.0" y="169" width="375" height="65"/>
+                    <state key="normal" title="Button" image="wodezichan.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vym-3Q-8si" userLabel="wodedingdan">
+                    <rect key="frame" x="0.0" y="232" width="375" height="65"/>
+                    <state key="normal" title="Button" image="wodedingdan.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euq-Qn-Lnx" userLabel="gouwuche">
+                    <rect key="frame" x="0.0" y="296" width="375" height="65"/>
+                    <state key="normal" title="Button" image="gouwuche.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm5-uc-oUk" userLabel="bangzhuyufankui">
+                    <rect key="frame" x="0.0" y="360" width="375" height="65"/>
+                    <state key="normal" title="Button" image="bangzhuyufankui.png"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="799.5" y="323"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bangzhuyufankui.png" width="750" height="122"/>
+        <image name="gouwuche.png" width="750" height="125"/>
+        <image name="touxiang.png" width="750" height="197"/>
+        <image name="wodedingdan.png" width="750" height="124"/>
+        <image name="wodezhuye.png" width="750" height="123"/>
+        <image name="wodezichan.png" width="750" height="125"/>
+    </resources>
+</document>
